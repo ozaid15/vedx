@@ -32,12 +32,6 @@ export const Table = () => {
   })
   // console.log(data);
   const columns = useMemo( () => COLUMNS,[]);
-  // const datas = useMemo( () => data,[]);
-  // const defaultColumn = useMemo( () => {
-  //   return {
-  //     Filter: Search
-  //   }
-  // },[])
 
   const {
     getTableProps,

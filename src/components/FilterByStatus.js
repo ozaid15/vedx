@@ -25,13 +25,6 @@ function FilterByStatus({filter, setFilter}) {
             <option>Prepared</option>
             <option>Prepone</option>
         </select>
-        {/* <input 
-            value={value || ' '}
-            onChange = { (e) => {
-                setValue(e.target.value)
-                onChange(e.target.value);
-            }}
-            /> */}
     </span>
   )
 }
