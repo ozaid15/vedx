@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+add{
+  font-family: 'Montserrat', sans-serif;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightcyan;
+    color: black;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    margin-top: -1%;
+  }
+
+ .header {
+   height: 4vh;
+   margin-top: 1%;
+ }
+ .allPage{
+  display: flex;
+  justify-content: flex-start;
+   margin-left: 5%;
+   color: aqua;
+   font-weight: bold;
+ }
+ .onePage{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 5%;
+   margin-top: -1.5%;
+   color: rgba(0, 0, 0, 0.455);
+   font-weight: bold;
+ }
+
+  .search {
+    display: flex;
+    margin-bottom: -2%;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
