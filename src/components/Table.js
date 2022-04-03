@@ -70,7 +70,7 @@ export const Table = () => {
       <span className="onePage">Showing {Math.min(1,size)} - {Math.min(10,size)} of {size} results</span>
     </div>
     <hr/>
-    <Search data={data} setData={setData} setFilter={setFilter}/>
+    
     <FilterByStatus filter={globalFilter} setFilter={setGlobalFilter}/>
     <table {...getTableProps()} className="tabl">
       <thead>
@@ -84,6 +84,7 @@ export const Table = () => {
                     <span>
                       {column.isSorted ? (column.isSortedDesc ? '🔽' :'🔼') : ''}
                     </span>
+                    <div>{column.canFilter ? column.render('Filter'): null}</div>
                   </th>
               ))}
             </tr>

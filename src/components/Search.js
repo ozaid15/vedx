@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 
-export const Search = ({data,setData, setFilter}) => {
-  const [val, setVal] = useState("");
-  
+export const Search = ({column}) => {
+
+  const { filterValue, setFilter} = column
   return (
     <span className='search'>
         Search: {" "}
         <input 
             placeholder='Customer Name'
-            value={val}
+            value={filterValue || ''}
             onChange = { (e) => {
-              setVal(e.target.value)
+              setFilter(e.target.value)
             }}
           />
     </span>
