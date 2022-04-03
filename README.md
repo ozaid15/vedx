@@ -1,3 +1,13 @@
+===============================================
+# Important For using this project use following command and dependencies
+1. git clone https://github.com/ozaid15/vedx.git
+2. npm i axios react-table date-fns
+3. npm start
+now you are ready to go with this project
+================================================
+
+
+
 <<<<<<< HEAD
 # Dashboard
 =======

@@ -9,7 +9,6 @@ import {Search} from "./Search";
 export const Table = () => {
   let [data, setData] = useState([]);
   const [items, setItems] = useState(0);
-  
 
   useEffect(() => {
     axios.get('https://my-json-server.typicode.com/Ved-X/assignment/orders')
@@ -23,6 +22,7 @@ export const Table = () => {
     })
   
   }, []);
+
   data && data.map( ele => {
     let a = ele.date.split("/");
     let b  = new Date(a[2],a[1]-1,a[0]);
